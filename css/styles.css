@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+  background-color: rgb(244, 220, 189);
+}
+
+
+.main-header{
+  height: 63vh;
+  background-size: 95vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to left bottom, rgba(235, 242, 234, 0.7), rgba(235, 156, 151, 0.83)), url('../images/attractive-beautiful-beautiful-girl-713527.jpg');
+  background-position: -100px;
+
+
+
+  /* clip-path: polygon(0 0, 40% 0%, 15% 75vh, 0 100%); */
+}
+
+.second-header{
+  height: 63vh;
+  background-size: 95vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to left bottom, rgba(235, 242, 234, 0.7), rgba(235, 156, 151, 0.73)), url('../images/adolescent-adult-beautiful-235509.jpg');
+}
+
+.third-header{
+  height: 63vh;
+  background-size: 95vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to left bottom, rgba(235, 242, 234, 0.7), rgba(235, 156, 151, 0.63)), url('../images/adult-afro-beautiful-157907.jpg');
+
+  background-position: -50px;
+
+}
+
+.name{
+
+}
+
+.headers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transform-origin: left;
+  transform: skewY(4deg);
+
+}
+.text-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-name{
+  font-family: 'Tangerine', cursive;
+  color: white;
+  font-size: 4em;
+  padding-top: 30px;
+  line-height: 0px;
+}
+
+.sub-name{
+  display: block;
+  color: white;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-white{
+  background-color: #fff;
+  color: #777;
+  transform: translate(130px, 20px);
+
+}
