@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -13,6 +15,7 @@ body {
   color: #777;
   padding: 30px;
   background-color: rgb(244, 220, 189);
+
 }
 
 
@@ -54,6 +57,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   transform-origin: left;
   transform: skewY(4deg);
+
 
 }
 .text-box{
@@ -99,4 +103,11 @@ body {
   color: #777;
   transform: translate(130px, 20px);
 
+}
+
+.contact-icons{
+  transform: translate(810px, 250px);
+  color: rgb(153, 147, 159);
+  max-width: 300px;
+  letter-spacing: 10px;
 }
