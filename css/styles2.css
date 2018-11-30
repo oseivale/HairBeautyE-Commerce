@@ -1,0 +1,197 @@
+#main-header{
+	height: 80vh;
+	background-image: linear-gradient(to left bottom, rgba(226, 228, 230, 0.6), rgba(226, 228, 230, 0.6)), url('../images/adolescent-adult-beautiful-235509.jpg');
+	background-size: cover;
+}
+
+#nav-bar{
+	background-color: rgba(152, 160, 167, 0.85);
+	height: 40px;
+	padding: 15px;
+	text-align: right;
+/*	position: fixed;
+	width: 97.5%;
+	z-index: 1;*/
+
+}
+
+#nav-bar a{
+	text-decoration: none;
+	padding: 20px;
+	font-size: 1.5em;
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#nav-bar a:hover{
+	text-decoration: underline;
+}
+
+#title{
+	font-size: 0.9em;
+	color: white;
+
+}
+
+.title{
+	font-size: 4em;
+	color: white;
+	font-family: 'Sacramento', cursive;
+}
+
+#main-title{
+	text-align: center;
+	transform: translateY(300px);
+}
+
+#contact{
+	height: 20vh;
+	background-color: rgba(159, 98, 184, 0.85);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.icon{
+	padding: 50px 40px;
+	color: white;
+}
+
+#contact-btn{
+	height: 35px;
+	width: 220px;
+	background-color: white;
+	border-radius: 10px;
+	color: grey;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.section{
+	text-align: center;
+	height: 50vh;
+	font-size: 1.5em;
+	padding-top: 90px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #A7A2A9;
+
+}
+
+span{
+	padding-left: 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.text{
+	text-align: left;
+}
+
+#about-us{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+
+}
+
+.text-container{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.image-container1{
+	margin-right: 20px;
+	background-image: url('../images/adult-afro-beautiful-157907.jpg');
+	background-size: cover;
+}
+
+.image-container2{
+
+	background-image: url('../images/attractive-beautiful-beautiful-girl-713527.jpg');
+	background-size: cover;
+}
+
+#special-offers{
+	color: white;
+	margin-top: 50px;
+	background-image: linear-gradient(to left bottom, rgba(235, 242, 234, 0.7), rgba(235, 156, 151, 0.73)), url('../images/beautiful-beauty-black-and-white-1476379.jpg');
+	background-size: cover;
+}
+
+#special-offers h2, h1{
+	transform: translateY(-70px);
+}
+
+
+#learn-more{
+	height: 45px;
+	width: 220px;
+	background-color: white;
+	border-radius: 10px;
+	color: grey;
+	padding-top: 10px;
+	text-align: center;
+	margin-left: 800px;
+	transform: translateY(-50px); 
+	margin-top: 10px;
+}
+
+#offers{
+	transform: translateY(-70px);
+	font-size: 2em;
+}
+
+#product-items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.products{
+	height: 110px;
+	width: 350px;
+	box-shadow: 2px 3px #A8A6AB;
+	margin-left: 70px;
+	padding-top: 120px;
+	background-color: #C7BFD6;
+	color: white;
+	border-radius: 5px;
+
+}
+
+.products:hover{
+	background-color: #DBB488;
+	color: #8C7FA5;
+	box-shadow: 2px 1px #A8A6AB;
+
+}
+
+#our-products{
+	margin-top: 50px;
+	
+}
+
+#product-text{
+	text-align: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 0.9em;
+	padding-bottom: 20px;
+}
+
+.contact-icons{
+	transform: translate(810px, 250px);
+  color: rgb(153, 147, 159);
+  max-width: 300px;
+  letter-spacing: 10px;
+}
+
+#our-services{
+	margin-top: 100px;
+	background-image: linear-gradient(to left bottom, rgba(77, 73, 83, 0.7), rgba(235, 156, 151, 0.73)), url('../images/background-blur-bokeh-220067.jpg');
+ 	background-size: cover;
+ 	color: white;
+ }
+
+
+ #our-services h1{
+ 	padding-top: 50px;
+ }
